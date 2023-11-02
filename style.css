@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;  /* Reduced padding for smaller height */
     background-color: #0341AE;
     position: fixed;
     width: 100%;
@@ -37,20 +37,22 @@ header {
 
 header h1 {
     font-family: 'Pixelify Sans', sans-serif;
-    margin-right: 15px;
-    font-size: 1.5rem;
+    margin-right: 10px;  /* Adjusted margin */
+    font-size: 1.2rem;  /* Reduced font size */
 }
 
 nav a {
-    margin-left: 15px;
+    margin-left: 10px;  /* Adjusted margin */
     text-decoration: none;
     color: white;
+    font-size: 0.8rem;  /* Reduced font size */
 }
 
 .nav-item {
     position: relative;
-    padding: 5px 8px;
+    padding: 4px 6px;  /* Reduced padding */
 }
+
 
 section {
     padding: 30px;
