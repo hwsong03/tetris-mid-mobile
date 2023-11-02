@@ -147,9 +147,11 @@ nav a {
     flex-direction: column; /* stack on mobile */
 }
 
-.version-image {
-    width: 80vw; /* responsive width */
-    margin-bottom: 4vw; /* spacing between image and content */
+.tetris-image {
+        width: 80vw; /* Adjust the width as needed to fit the mobile screen */
+        height: auto; /* Keep the aspect ratio */
+        /* You may also adjust the margin if needed */
+        margin: 5vw auto; /* centered horizontally with auto */
 }
 
 .version-content {
